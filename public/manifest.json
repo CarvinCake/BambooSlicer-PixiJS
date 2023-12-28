@@ -1,0 +1,21 @@
+{
+  "bundles": [
+    {
+      "name": "game-screen",
+      "assets": [
+        {
+          "name": "redpanda",
+          "srcs": "red-panda.png"
+        },
+        {
+          "name": "bamboo",
+          "srcs": "bamboo.png"
+        },
+        {
+          "name": "bambooObstacle",
+          "srcs": "bamboo_obstacle.png"
+        }
+      ]
+    }
+  ]
+}
