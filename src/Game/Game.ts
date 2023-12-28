@@ -80,7 +80,7 @@ export class Game {
 
   private setupClickAreas() {
     const clickCallback = (side: eSide) => {
-      const playerSide = this._player.slice(side);
+      this._player.slice(side);
       const bambooSide = this._bambooTree.removeFirst(1);
       this._player.collisionCheck(bambooSide);
     };

@@ -14,7 +14,7 @@ export class Player extends Sprite implements IPlayer {
   private _side: eSide;
   private _leftPose: number;
   private _rightPose: number;
-  private _timer = 0;
+  // private _timer = 0;
   private _score = 0;
 
   constructor(
